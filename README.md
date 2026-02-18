@@ -1,101 +1,154 @@
-# 🇮🇳 Empowering India
-
-## Analysing the Evolution of Union Budget Allocations for Sustainable Growth
-
----
-
-## 📊 Project Overview
-
-**Empowering India** is a data analytics project that examines the evolution of India’s Union Budget allocations from 2021 to 2024 to understand how government spending supports sustainable and inclusive growth.
-
-The project transforms structured government financial data into meaningful insights using Python-based data preprocessing and interactive Tableau dashboards.
-
-The objective is simple:
-Convert raw fiscal data into clear, visual, and actionable insights.
+# Empowering India  
+## Analysing the Evolution of Union Budget Allocations for Sustainable Growth  
 
 ---
 
-## 🎯 Objectives
+## 📌 Project Overview
 
-* Analyse Union Budget allocation trends (2021–2024)
-* Study ministry-wise and scheme-wise expenditure patterns
-* Identify priority sectors contributing to sustainable growth
-* Build interactive dashboards for intuitive financial analysis
+This project analyzes the evolution of Union Budget allocations in India over recent financial years.  
+It transforms raw financial data into structured insights using preprocessing, analytics, and interactive Tableau visualization.  
 
----
-
-## 🗂️ Project Structure
-
-```
-Empowering-India/
-│
-├── 01-Assignments/
-├── 02-Ideation-Phase/
-├── 03-Requirement-Analysis/
-├── 04-Project-Design-Phase/
-├── 05-Project-Planning-Phase/
-├── 06.0-Project-Executable-Files/
-├── 06.1-Project-Development-Phase/
-├── 07-Functional-and-Performance-Testing/
-├── 08-Doc-and-Demo/
-│
-└── README.md
-```
-
----
-
-## 🛠 Tools & Technologies Used
-
-* **Python 3** – Data cleaning and preprocessing
-* **Pandas & NumPy** – Data transformation and analysis
-* **MS Excel** – Initial formatting and validation
-* **Tableau Public** – Interactive dashboard visualization
-
----
-
-## 📊 Dashboard Highlights
-
-* Category-wise Budget Comparison (2022–2024)
-* Department-wise Allocation Analysis
-* Scheme-wise Funding Trends
-* Top 5 Funded Ministries
-* Revenue vs Capital Expenditure Overview
-* Total Budget Distribution by Demand Category
-
----
-
-## 📈 Key Insights
-
-* Significant rise in infrastructure spending, especially in transport and railways.
-* Strong allocations toward food security and fertiliser departments.
-* Defence capital outlay remains a major expenditure segment.
-* Increasing focus on long-term development and economic sustainability.
-
----
-
-## 🌱 Conclusion
-
-The analysis shows that India’s Union Budgets are progressively aligned with infrastructure growth, economic resilience, and inclusive development.
-
-Through structured preprocessing and visualization, this project demonstrates how financial data can be transformed into meaningful policy insights.
-
----
-
-## 🔮 Future Enhancements
-
-* Extend analysis to additional fiscal years
-* Implement inflation-adjusted comparisons
-* Integrate predictive analytics for future budget forecasting
-* Improve dashboard interactivity and performance
-
-Further improvements and additional features **will be added soon!**
+The objective is to improve transparency, enable policy-level understanding, and support sustainable growth analysis through data-driven methods.
 
 ---
 
 ## 👥 Team Details
 
-**Team ID:** LTVIP2026TMIDS37529
-**Team Size:** 2
+**Team ID:** LTVIP2026TMIDS37529  
 
-**Team Leader:** Beeram Yeswanth Reddy
-**Team Member:** Kalegalla Umar Mohiddin
+**Team Size:** 2  
+
+**Team Leader:** Beeram Yeswanth Reddy  
+
+**Team Member:** Kalegalla Umar Mohiddin  
+
+**Submission Date:** 18-02-2025  
+
+---
+
+## 📊 Tableau Public Dashboard
+
+Interactive Dashboard Link:
+
+https://public.tableau.com/app/profile/umar.mohiddin.kalegalla/viz/EmpoweringIndia_17714293793370/TotalBudget-CategoryWise
+
+This dashboard provides:
+
+- Sector-wise budget allocation analysis  
+- Year-wise comparison trends  
+- Interactive filtering options  
+- Visual interpretation of allocation distribution  
+
+---
+
+## 🛠 Technology Stack
+
+Frontend:
+- HTML  
+- CSS  
+- JavaScript  
+
+Backend:
+- Python  
+- Flask  
+
+Data Processing:
+- Pandas  
+- NumPy  
+
+Visualization:
+- Tableau Public  
+
+---
+
+## 📂 Project Structure
+
+```
+
+empowering_india/
+│
+├── app.py
+├── preprocessing_Code.py
+├── requirements.txt
+│
+├── templates/
+│   └── index.html
+│
+└── static/
+├── css/
+├── js/
+└── images/
+
+```
+
+---
+
+## ⚙️ How to Run the Project
+
+1. Clone the repository
+
+```
+
+git clone <your-repository-link>
+
+```
+
+2. Install dependencies
+
+```
+
+pip install -r requirements.txt
+
+```
+
+3. Run Flask application
+
+```
+
+python app.py
+
+```
+
+4. Open in browser
+
+```
+
+[http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+```
+
+---
+
+## 🔎 Key Features
+
+- Cleaned and structured Union Budget dataset  
+- Removal of duplicates and missing values  
+- Outlier detection using IQR method  
+- Interactive Tableau dashboard integration  
+- Responsive web interface using Flask  
+
+---
+
+## 📈 Business Questions Addressed
+
+- Which departments received the highest allocations?  
+- How has total budget allocation evolved over time?  
+- Which sectors show consistent growth or decline?  
+- What percentage of total budget goes to major ministries?  
+- How do allocation priorities shift across financial years?  
+
+---
+
+## 🚀 Future Scope
+
+- Integration with State Budget data  
+- Real-time economic data analysis  
+- AI-based forecasting enhancements  
+- Mobile application version  
+
+---
+
+## 📌 Conclusion
+
+This project successfully converts raw Union Budget data into meaningful analytical insights.  
+By combining preprocessing, backend integration, and interactive visualization, the system enhances transparency and supports informed decision-making.
