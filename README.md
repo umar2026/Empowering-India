@@ -39,7 +39,7 @@ The dashboard provides:
 
 ---
 
-## 🎥 Project Demo
+## 🎥 Project 
 
 **Video Demo Link:**  
 https://drive.google.com/file/d/1_WSMO_8NYvApC90rAbjxkXdWQRIFc8C9/view?usp=sharing
